@@ -1,0 +1,32 @@
+.mdb_banner{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.mdb_banner_movie-info{
+    color: #fff;
+    font-family: var(--text-acme);
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    margin: 0 50px;
+}
+
+.mdb_banner_movie-info h1{
+    font-size: 5rem;
+}
+
+.mdb_banner_movie-info .desc{
+    font-size: 1.5rem;
+}
+
+.mdb_banner_movie-info .relase{
+    font-size: 1.2rem;
+}

@@ -1,0 +1,21 @@
+.mdb_sidebar{
+    background: var(--color-byzantium);
+    height: 50px;
+    font-family: var(--text-acme);
+    color: #fff;
+}
+.mdb_sidebar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.mdb_sidebar_nav nav{
+    display: flex;
+}
+.mdb_sidebar_nav nav p{
+    padding: 0 5px;
+}

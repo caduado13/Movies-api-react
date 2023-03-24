@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bangers&family=Combo&family=Indie+Flower&family=Lobster&family=Open+Sans:wght@300&family=Patrick+Hand&family=Poppins:wght@300&family=Rochester&family=Space+Mono&display=swap');
+
+:root {
+    --text-acme: 'Acme', sans-serif;
+    --color-jet: #2F2D2E;
+    --color-vandyke: #41292C;
+    --color-byzantium: #792359;
+    --color-mexpink: #D72483;
+    --color-frenrose: #FD3E81;
+}
+
