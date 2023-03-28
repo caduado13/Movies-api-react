@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './component/sidebar/Sidebar.jsx';
-import Search  from './component/search/Search';
-import Banner from './component/banner/Banner';
-import { ContextProvider } from './contexts/contextProvider';
-import All from './containers/allmovies/All';
+import Home from './pages/Home';
+import {Routes, Route, BrowserRouter} from "react-router-dom"
+import MoviePage from './pages/MoviePage'; 
+import SearchResult from './component/result/SearchResult';
 
 
 
@@ -12,12 +12,14 @@ import All from './containers/allmovies/All';
 function App() {
   return (
     <div>
-      <ContextProvider>
-        <Sidebar></Sidebar> 
-        <Banner></Banner>
-        <Search></Search>
-        <All></All>
-      </ContextProvider>
+        <BrowserRouter>
+          <Sidebar></Sidebar>
+            <Routes>
+              <Route path="movie/:id" element = {<MoviePage/>}/>
+              <Route path="/" element = {<Home/>}/>
+              <Route path="/search" element = {<SearchResult/>}/>
+            </Routes>      
+        </BrowserRouter>
     </div>
   )
 }

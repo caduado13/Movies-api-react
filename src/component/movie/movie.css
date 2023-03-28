@@ -1,6 +1,9 @@
 .movie{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 300px;
-    height: 400px;
+    height: 450px;
     margin-right: 20px;
 }
 
@@ -16,4 +19,30 @@
 .movie p span{
     font-size: 0.8rem;
     color: #fff;
+}
+
+.ref{
+    width: 100%;
+}
+
+.details-btn{
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    outline: none;
+    border: 1px solid var(--color-mexpink);
+    background-color: var(--color-mexpink);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: var(--text-acme);
+    border-radius: 5px;
+}
+
+
+.details-btn:hover{
+    transition: 500ms;
+    background-color: var(--color-jet);
+    border: 1px solid var(--color-mexpink);
+    color: var(--color-mexpink);
 }

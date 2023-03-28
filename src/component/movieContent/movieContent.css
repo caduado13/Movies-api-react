@@ -1,0 +1,15 @@
+.movie-content{
+    padding-left: 50px;
+    border-left: 1px solid #000;
+}
+
+.movie-content h1{
+    font-size: 3rem;
+    color: var(--color-byzantium);
+    text-shadow: 3px 3px 1px #000;
+    padding-bottom: 25px;
+}
+
+.movie-content p{
+    font-size: 1.3rem;
+}

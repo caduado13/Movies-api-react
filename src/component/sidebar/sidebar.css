@@ -19,3 +19,7 @@
 .mdb_sidebar_nav nav p{
     padding: 0 5px;
 }
+
+.link:visited{
+    color: #fff;
+}

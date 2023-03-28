@@ -31,6 +31,7 @@ export default function RollMovies({movies, mainH1}){
                         image = {imageURL + item.poster_path} 
                         key ={item.id}
                         rated = {item.vote_average}
+                        id = {item.id}
                     />
                 )))}
  
